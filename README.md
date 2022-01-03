@@ -1,2 +1,2 @@
-# dev-tools
-A set of programming tools for the Development Management
+# Bhojpur Developer - Standard Toolkit
+A set of software tools for the Software Development
