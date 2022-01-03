@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+package v1;
+option go_package = "github.com/shashi-rai/dev-tools/pkg/api/v1";
+import "google/protobuf/timestamp.proto";
+
+service DevService {
+    rpc GetStatus(DevRequest) returns (DevReply) {}
+}
+
+message DevRequest {
+    string name = 1;
+}
+
+message DevReply {
+    string message = 1;
+}
